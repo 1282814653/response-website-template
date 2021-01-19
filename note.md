@@ -45,3 +45,9 @@
 ### 安装 font-awesome 字体图标库
 
 > 已安装
+
+### axios 已安装
+
+### qs 已安装
+
+### element-ui 已安装
