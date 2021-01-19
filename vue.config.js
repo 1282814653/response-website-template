@@ -44,22 +44,22 @@ module.exports = {
     pwa: { // 单页插件相关配置 https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
     },
     // devServer: {
-    //     open: true,
-    //     host: 'localhost',
-    //     port: 8080,
-    //     https: false,
-    //     hotOnly: false,
+    //     //     open: true,
+    //     //     host: 'localhost',
+    //     //     port: 8080,
+    //     //     https: false,
+    //     //     hotOnly: false,
     //     proxy: { // 配置跨域
-    //         '/api': {
+    //         '/': {
     //             target: '',	//接口域名
-    //             //是否代理websockets
-    //             ws: false,
-    //             //是否跨域
-    //             changOrigin: true,
-    //             //重置路径
-    //             pathRewrite: {
-    //                 '^/api': ''
-    //             }
+    //             //             //是否代理websockets
+    //             //             ws: false,
+    //             //             //是否跨域
+    //             //             changOrigin: true,
+    //             //             //重置路径
+    //             //             pathRewrite: {
+    //             //                 '^/api': ''
+    //             //             }
     //         }
     //     },
     //     before: app => { }

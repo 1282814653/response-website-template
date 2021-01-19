@@ -1,3 +1,4 @@
+@import "./font_size.scss";
 // 字体
 .font-cen {
 	text-align: center;
@@ -10,4 +11,128 @@
 }
 .font-wei {
 	font-weight: bold;
+}
+// 10 ~ 19
+.font-o-zero {
+	font-size: $font_o_zero;
+}
+.font-o-one {
+	font-size: $font_o_one;
+}
+.font-o-two {
+	font-size: $font_o_two;
+}
+.font-o-three {
+	font-size: $font_o_three;
+}
+.font-o-four {
+	font-size: $font_o_four;
+}
+.font-o-five {
+	font-size: $font_o_five;
+}
+.font-o-six {
+	font-size: $font_o_six;
+}
+.font-o-seven {
+	font-size: $font_o_seven;
+}
+.font-o-eight {
+	font-size: $font_o_eight;
+}
+.font-o-nine {
+	font-size: $font_o_nine;
+}
+// 20 ~ 29
+.font-t-zero {
+	font-size: $font_t_zero;
+}
+.font-t-one {
+	font-size: $font_t_one;
+}
+.font-t-two {
+	font-size: $font_t_two;
+}
+.font-t-three {
+	font-size: $font_t_three;
+}
+.font-t-four {
+	font-size: $font_t_four;
+}
+.font-t-five {
+	font-size: $font_t_five;
+}
+.font-t-six {
+	font-size: $font_t_six;
+}
+.font-t-seven {
+	font-size: $font_t_seven;
+}
+.font-t-eight {
+	font-size: $font_t_eight;
+}
+.font-t-nine {
+	font-size: $font_t_nine;
+}
+// 30 ~ 39
+.font-th-zero {
+	font-size: $font_th_zero;
+}
+.font-th-one {
+	font-size: $font_th_one;
+}
+.font-th-two {
+	font-size: $font_th_two;
+}
+.font-th-three {
+	font-size: $font_th_three;
+}
+.font-th-four {
+	font-size: $font_th_four;
+}
+.font-th-five {
+	font-size: $font_th_five;
+}
+.font-th-six {
+	font-size: $font_th_six;
+}
+.font-th-seven {
+	font-size: $font_th_seven;
+}
+.font-th-eight {
+	font-size: $font_th_eight;
+}
+.font-th-nine {
+	font-size: $font_th_nine;
+}
+// 40 ~ 49
+.font-f-zero {
+	font-size: $font_f_zero;
+}
+.font-f-one {
+	font-size: $font_f_one;
+}
+.font-f-two {
+	font-size: $font_f_two;
+}
+.font-f-three {
+	font-size: $font_f_three;
+}
+.font-f-four {
+	font-size: $font_f_four;
+}
+.font-f-five {
+	font-size: $font_f_five;
+}
+.font-f-six {
+	font-size: $font_f_six;
+}
+.font-f-seven {
+	font-size: $font_f_seven;
+}
+.font-f-eight {
+	font-size: $font_f_eight;
+}
+.font-f-nine {
+	font-size: $font_f_nine;
 }

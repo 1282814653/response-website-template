@@ -1,15 +1,20 @@
 <template>
     <div class="home">
         <h1 class="title">这是 Home 页面 </h1>
+
+        <div>
+            <back_top></back_top>
+        </div>
     </div>
 </template>
 
 <script>
+import back_top from '@/components/BackTop/back_top'
 import { mapState, mapMutations, mapActions, mapGetters } from 'vuex'
 export default {
     name: 'Home',
     components: {
-
+        back_top
     },
     data() {
         return {
