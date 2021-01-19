@@ -1,0 +1,35 @@
+// 取消 下箭头 图标
+/deep/ .el-icon-arrow-down {
+	display: none !important;
+}
+::v-deep .el-icon-arrow-down {
+	display: none !important;
+}
+// 取消背景色
+/deep/ .el-menu-item {
+	background: transparent !important;
+}
+::v-deep .el-menu-item {
+	background: transparent !important;
+}
+// hover 的时候 取消 背景色 (对于 当前一级文字
+/deep/ .el-menu-item:hover {
+	background: transparent !important;
+}
+::v-deep .el-menu-item:hover {
+	background: transparent !important;
+}
+// hover 的时候取消 背景色 (对于 二级导航的一级文字背景
+/deep/ .el-submenu__title:hover {
+	background: transparent !important;
+}
+::v-deep .el-submenu__title:hover {
+	background: transparent !important;
+}
+// 导航分割线
+/deep/ .el-submenu__title {
+	border-bottom: 1px solid rgb(182, 181, 181);
+}
+::v-deep .el-submenu__title {
+	border-bottom: 1px solid rgb(182, 181, 181);
+}

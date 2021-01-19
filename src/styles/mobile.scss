@@ -1,0 +1,33 @@
+@import "./minxin.scss";
+html {
+	font-size: 16px;
+}
+
+@media screen and (min-width: 375px) {
+	html {
+		/* iPhone6的375px尺寸作为16px基准，414px正好18px大小, 600 20px */
+		@include font-size(100%, 2, 100vw, 375px, 39);
+		@include font-size(16px, 2, 100vw, 375px, 39);
+	}
+}
+@media screen and (min-width: 414px) {
+	html {
+		/* 414px-1000px每100像素宽字体增加1px(18px-22px) */
+		@include font-size(112.5%, 4, 100vw, 414px, 586);
+		@include font-size(18px, 4, 100vw, 414px, 586);
+	}
+}
+@media screen and (min-width: 375px) {
+	html {
+		/* 600px-1000px每100像素宽字体增加1px(20px-24px) */
+		@include font-size(125%, 4, 100vw, 600px, 400);
+		@include font-size(20px, 4, 100vw, 600px, 400);
+	}
+}
+@media screen and (min-width: 375px) {
+	html {
+		/* 1000px往后是每100像素0.5px增加 */
+		@include font-size(137.5%, 6, 100vw, 1000px, 1000);
+		@include font-size(22px, 6, 100vw, 1000px, 1000);
+	}
+}

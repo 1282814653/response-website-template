@@ -1,0 +1,66 @@
+// 字体大小
+@mixin font-size($font, $number, $vw, $picture, $size) {
+	font-size: calc($font + $number * ($vw - $picture) / $size);
+}
+
+// flex 布局
+@mixin flex-style($wrap, $items, $justify, $direction, $align) {
+	display: flex;
+	flex-wrap: $wrap;
+	align-items: $items;
+	justify-content: $justify;
+	flex-direction: $direction;
+	align-content: $align;
+}
+// 圆角 //  (左上 右上 右下 左下
+@mixin radius-one($all) {
+	border-radius: $all;
+	-webkit-border-radius: $all;
+	-moz-border-radius: $all;
+	-ms-border-radius: $all;
+	-o-border-radius: $all;
+}
+@mixin radius-two($top, $bottom) {
+	border-radius: $top, $bottom;
+	-webkit-border-radius: $top, $bottom;
+	-moz-border-radius: $top, $bottom;
+	-ms-border-radius: $top, $bottom;
+	-o-border-radius: $top, $bottom;
+}
+@mixin radius-three($top, $left, $bottom) {
+	border-radius: $top, $left, $bottom;
+	-webkit-border-radius: $top, $left, $bottom;
+	-moz-border-radius: $top, $left, $bottom;
+	-ms-border-radius: $top, $left, $bottom;
+	-o-border-radius: $top, $left, $bottom;
+}
+@mixin radius-four($top, $left, $bottom, $right) {
+	border-radius: $top, $left, $bottom, $right;
+	-webkit-border-radius: $top, $left, $bottom, $right;
+	-moz-border-radius: $top, $left, $bottom, $right;
+	-ms-border-radius: $top, $left, $bottom, $right;
+	-o-border-radius: $top, $left, $bottom, $right;
+}
+// 宽高
+@mixin width-h($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+//  图片之间的 分割线
+@mixin after-line($vTop, $vleft, $vrgb1, $vrgb2, $vrgb3, $vHeight) {
+	position: relative;
+	&::after {
+		position: absolute;
+		top: $vTop;
+		left: $vleft;
+		content: "";
+		border-right: 1px solid rgb($vrgb1, $vrgb2, $vrgb3);
+		display: block;
+		width: 0px;
+		height: $vHeight;
+	}
+	&:first-child::after {
+		border-right: none;
+	}
+}

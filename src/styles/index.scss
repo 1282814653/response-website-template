@@ -1,0 +1,45 @@
+@import "./global.scss";
+@import "./reset.scss";
+
+body {
+	height: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-family: Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a,
+a:focus,
+a:hover {
+	cursor: pointer;
+	color: inherit;
+	outline: none;
+	text-decoration: none;
+}
+
+div:focus {
+	outline: none;
+}
