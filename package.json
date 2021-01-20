@@ -12,6 +12,7 @@
     "element-ui": "^2.14.1",
     "font-awesome": "^4.7.0",
     "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
     "qs": "^6.9.6",
     "vue": "^2.6.11",
     "vue-animate-number": "^0.4.2",

@@ -51,3 +51,10 @@
 ### qs 已安装
 
 ### element-ui 已安装
+
+### normalize 已安装
+
+> NProgress.start() // 开始
+> NProgress.set(0.4) // 设置进度 0-1
+> NProgress.inc(); //随机增长进度条但进度条永远达到 100%
+> NProgress.done() // 结束
